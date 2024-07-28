@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness Website</title>
+    <link rel="stylesheet" href="fitness.css">
+    
+</head>
+<body>
+    <!--Entire page-->
+    <div class="container" id="content"> 
+        <!--Header content-->
+        <div class="header" id="content-header">
+          <header>
+             <h1>PLANET FITNESS</h1>
+             <!--Navigation bar in header-->
+             <nav>
+                 <ul>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="online_workout.html">Online workout</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                 </ul>
+                 <!--log in button-->
+                  <div>
+                     <a  href = "log.html"><button >LOG IN</button></a>
+                  </div>
+                    
+              </nav>
+          </header> 
+       </div>
+      <!--End of header content-->
+
+     <div class="home" id="welcome">
+         <h2>Welcome to My Fitness Website!</h2>
+         <p>Get fit, stay healthy!</p>
+     </section>
+
+     <section id="about">
+         <h2>About Us</h2>
+         <p>we are dedicated to making your life much healthier,join us in our journey together</p>
+     </section>
+
+     <section id="services">
+         <h2>Our Services</h2>
+         <ul>
+             <li>Personal Training</li>
+             <li>Group Classes</li>
+             <li>Nutrition Counseling</li>
+             <li>Online Workouts</li>
+         </ul>
+     </section>
+
+     <section id="equipment">
+        <h2>Equipment</h2>
+        <div class="equipment-item">
+            <h3>Dumbbells</h3>
+            <p>Dumbbells are versatile pieces of equipment used in strength training exercises. They come in various weights and can be used for exercises targeting different muscle groups.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/01/09/14/42/dumbbell-1966702_640.jpg" alt="Dumbbells">
+        </div>
+        <div class="equipment-item">
+            <h3>Resistance Bands</h3>
+            <p>Resistance bands provide resistance during exercises to build strength and flexibility. They are lightweight, portable, and can be used for a variety of exercises.</p>
+            <img src="https://www.shutterstock.com/image-photo/close-athletic-women-squat-together-260nw-1139321285.jpg" alt="Resistance Bands">
+        </div>
+        <div class="equipment-item">
+            <h3>Training Kits</h3>
+            <p>Training kits often include a variety of equipment such as yoga mats, stability balls, and jump ropes. These kits are ideal for home workouts or when traveling.</p>
+            <img src="https://media.istockphoto.com/id/1144036339/photo/trainer-and-female-client-talking-in-gym.jpg?s=612x612&w=0&k=20&c=7D8Z_P771V4V2pZd3raFOe79BDbIuKtkzebDtALl5Uc=" alt="Training Kits">
+        </div>
+    </section>
+
+     <div class="contact" id="contact">
+         <h2>Contact Us</h2>
+           <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              <br>
+              <button type="submit">Send</button>
+         </form>
+
+         <!--Social media icons-->
+         <div class="sidebar-footer">
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-facebook"></i></a>
+             <a href="#" class="fab fa-instagram"></i></a>
+         </div>
+     </div>
+
+      <footer>
+         <p>&copy; 2024 My Fitness Website. All rights reserved.</p>
+      </footer>
+    
+      <script src="script.js"></script>
+    </div>
+</body>
+</html>
